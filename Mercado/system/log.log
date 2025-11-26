@@ -1,0 +1,51 @@
+[2025-11-25 19:07:06.000] [Throwable] 
+ Throwable:
+Message: Class "Firebase\JWT\JWT" not found
+Code: 0
+File: C:\xampp\htdocs\Mercado\api\utils\MeuTokenJWT.php
+Line: 52
+Trace:
+#0 C:\xampp\htdocs\Mercado\api\control\LoginControl.php(37): Firebase\JWT\MeuTokenJWT->gerarToken(Object(stdClass))
+#1 C:\xampp\htdocs\Mercado\api\router\Roteador.php(78): LoginControl->login(Object(stdClass))
+#2 C:\xampp\htdocs\Mercado\api\router\Router.php(458): Roteador->{closure}()
+#3 C:\xampp\htdocs\Mercado\api\router\Router.php(440): Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\Mercado\api\router\Router.php(287): Router->handle(Array, true)
+#5 C:\xampp\htdocs\Mercado\api\router\Roteador.php(222): Router->run()
+#6 C:\xampp\htdocs\Mercado\api.php(28): Roteador->start()
+#7 C:\xampp\htdocs\Mercado\api.php(32): API->__construct()
+#8 {main} 
+ **************************************************************************************************** 
+[2025-11-25 19:07:56.000] [Throwable] 
+ Throwable:
+Message: Class "Firebase\JWT\JWT" not found
+Code: 0
+File: C:\xampp\htdocs\Mercado\api\utils\MeuTokenJWT.php
+Line: 52
+Trace:
+#0 C:\xampp\htdocs\Mercado\api\control\LoginControl.php(37): Firebase\JWT\MeuTokenJWT->gerarToken(Object(stdClass))
+#1 C:\xampp\htdocs\Mercado\api\router\Roteador.php(78): LoginControl->login(Object(stdClass))
+#2 C:\xampp\htdocs\Mercado\api\router\Router.php(458): Roteador->{closure}()
+#3 C:\xampp\htdocs\Mercado\api\router\Router.php(440): Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\Mercado\api\router\Router.php(287): Router->handle(Array, true)
+#5 C:\xampp\htdocs\Mercado\api\router\Roteador.php(222): Router->run()
+#6 C:\xampp\htdocs\Mercado\api.php(28): Roteador->start()
+#7 C:\xampp\htdocs\Mercado\api.php(32): API->__construct()
+#8 {main} 
+ **************************************************************************************************** 
+[2025-11-25 19:07:57.000] [Throwable] 
+ Throwable:
+Message: Class "Firebase\JWT\JWT" not found
+Code: 0
+File: C:\xampp\htdocs\Mercado\api\utils\MeuTokenJWT.php
+Line: 52
+Trace:
+#0 C:\xampp\htdocs\Mercado\api\control\LoginControl.php(37): Firebase\JWT\MeuTokenJWT->gerarToken(Object(stdClass))
+#1 C:\xampp\htdocs\Mercado\api\router\Roteador.php(78): LoginControl->login(Object(stdClass))
+#2 C:\xampp\htdocs\Mercado\api\router\Router.php(458): Roteador->{closure}()
+#3 C:\xampp\htdocs\Mercado\api\router\Router.php(440): Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\Mercado\api\router\Router.php(287): Router->handle(Array, true)
+#5 C:\xampp\htdocs\Mercado\api\router\Roteador.php(222): Router->run()
+#6 C:\xampp\htdocs\Mercado\api.php(28): Roteador->start()
+#7 C:\xampp\htdocs\Mercado\api.php(32): API->__construct()
+#8 {main} 
+ **************************************************************************************************** 
